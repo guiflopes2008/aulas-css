@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        header {
+            background: #ccc;
+            margin: 10px 20px 5px 25px; /* topo, direita, baixo, esquerda*/
+        }
+
+        main {
+            background: #aaa;
+            padding: 20px 10px;/* topo baixo, esquerda direita*/
+        }
+
+         p{
+            color: #f00;
+
+        }
+        #primeiro-paragrafo{
+            color: aqua;
+        }
+
+        .paragrafo-padrao-classe{
+            color: rgb(184, 184, 27);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Titulo Principal</h1>
+    </header>
+
+    <main>
+        
+        <h2>Títulos Secundário</h2>
+        <p id="primeiro-paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti harum pariatur, at libero dolore vero qui velit nesciunt sed provident commodi ipsam ea, dignissimos voluptates ipsa temporibus quas enim minus.</p>
+        
+        <section>
+            <article>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse iure tempora rerum nulla aspernatur
+                    iste a repellat, vel deserunt molestiae vitae ad facere eum distinctio, consectetur veritatis
+                    quisquam temporibus dolorem?
+                </p>
+
+                <p class="paragrafo-padrao-classe">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse iure tempora rerum nulla aspernatur
+                    iste a repellat, vel deserunt molestiae vitae ad facere eum distinctio, consectetur veritatis
+                    quisquam temporibus dolorem?
+                </p>
+
+                <p class="paragrafo-padrao-classe">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse iure tempora rerum nulla aspernatur
+                    iste a repellat, vel deserunt molestiae vitae ad facere eum distinctio, consectetur veritatis
+                    quisquam temporibus dolorem?
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>
+            &copy;Todos os direitos reservados
+        </address>
+    </footer>
+</body>
+
+</html>
