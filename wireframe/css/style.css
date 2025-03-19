@@ -1,15 +1,23 @@
 *{
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 .container{
     width: 1328px;
     margin: auto;
+   
 }
 
+
+
 /* header */
+
+header{
+    padding: 20px;
+}
 
 h1{
     text-align: center;
@@ -17,8 +25,89 @@ h1{
 
 /* nav */
 
+nav{
+    background: #422578d4;
+    padding: 24px 0;
+}
+
 nav ul{
     list-style: none;
     display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color:  #000000;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+    transition: all ease-in-out 0.5s;
+    border-radius: 18% 0 18% 
+}
+
+main{
+    background-color: #a09999;
+}
+
+footer{
+    background-color: #a09999
+}
+
+nav ul li a:hover{
+    background: #000;
+    color:#fff
+}
+
+/* banner */
+
+#banner img{
+    width: 100%;
+}
+
+/* posts */
+
+.posts h2{
+    text-align: center;
+    margin: 91px 0 62px;
+    font-size: 40px;
+}
+
+.posts .container{
+    display: flex;
     justify-content: space-between;
+}
+
+.posts img{
+    border-radius: 20px 20px 0px ;
+}
+
+.posts h3{
+
+font-size: 20px;
+margin: 16px 16px 16px;
+}
+
+.lik-group{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.posts h4{
+    margin-left: 16px ;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.posts p{
+
+    margin: 32px 16px;
+
+}
+.posts a{
+    background: #65558f;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 100px;
 }
