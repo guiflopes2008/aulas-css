@@ -48,11 +48,11 @@ nav ul li a{
 }
 
 main{
-    background-color: #a09999;
+    background-color: #ffffff;
 }
 
 footer{
-    background-color: #a09999
+    background-color: #ffffff
 }
 
 nav ul li a:hover{
@@ -146,7 +146,7 @@ margin: 16px 16px 16px;
     display: flex;
     padding: 20px;
     justify-content: center;
-    background-color: #b1aeae;
+    background-color: #692f33;
     
 }
 .post2 .container{
