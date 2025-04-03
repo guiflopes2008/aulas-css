@@ -358,3 +358,33 @@ footer{
 footer .baixo h5{
     margin: 14px 0px;
 }
+
+
+/* resonsivo */
+
+
+@media (max-width:480px){
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .cta p{
+        width: 100% ;
+    }
+
+    .brands, .about-us-video{
+        display: none;
+    }
+
+    img{
+        max-width: 100%;
+    }
+    .works .images{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .ready fieldset{
+        flex-direction: column;
+    }
+}
