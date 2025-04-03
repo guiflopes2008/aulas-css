@@ -354,3 +354,7 @@ footer{
     padding-top:104px;
     margin-top: 104px;
 }
+
+footer .baixo h5{
+    margin: 14px 0px;
+}
